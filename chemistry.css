@@ -1,0 +1,28 @@
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+    background: url('background.jpg');
+}
+h1{
+    text-align: center;
+    color: red;
+    border: 2px solid red;
+    margin-left: 300px;
+    margin-right: 300px;
+   
+}
+.chemistry li a{
+    text-align: center;
+    color: red;
+    
+    
+}
+.chemistry li.link a{
+   
+    border: 2px solid red;
+   border-radius: 30%;
+   
+}
+.link{
+  text-align: center;
+ padding: 2%;
+} 

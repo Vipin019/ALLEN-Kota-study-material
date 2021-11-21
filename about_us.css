@@ -1,0 +1,15 @@
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+    background-color: rgb(238, 238, 186);
+}
+h1{
+    text-align: center;
+    color: red;
+}
+p{
+    margin: 10%;
+    justify-content: center;
+}
+.boot{
+    margin-bottom: 1px;
+}

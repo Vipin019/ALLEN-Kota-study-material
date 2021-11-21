@@ -1,0 +1,30 @@
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+    background: url('background.jpg');
+}
+h1{
+    text-align: center;
+    color: blue;
+    border: 2px solid blue;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+.physics li a{
+    text-align: center;
+    color: blue;
+    
+    
+}
+.physics li.link a{
+   
+    border: 2px solid blue;
+   border-radius: 30%;
+
+
+    
+}
+.link{
+  text-align: center;
+ padding: 2%;
+} 
