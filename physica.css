@@ -11,6 +11,7 @@ h1{
     border: 2px solid blue;
     margin-left: 18.75rem;
     margin-right: 18.75rem;
+    font-size: 5rem;
     
 }
 .physics{
@@ -26,7 +27,7 @@ h1{
    
     border: .125rem solid blue;
    border-radius: 30%;
-  
+  font-size: 3rem;
 
 
     
