@@ -2,13 +2,19 @@ body{
     font-family: 'Baloo Bhaina 2', cursive;
     background: url('background.jpg');
 }
+html{
+    font-size: 100%;
+}
 h1{
     text-align: center;
     color: yellow;
     border: 2px solid yellow;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 18.75rem;
+    margin-right: 18.75rem;
    
+}
+.maths{
+    margin-top: 16rem;
 }
 .maths li a{
     text-align: center;
@@ -18,7 +24,7 @@ h1{
 }
 .maths li.link a{
    
-    border: 2px solid yellow;
+    border: .125rem solid yellow;
    border-radius: 30%;
 
 
@@ -26,5 +32,46 @@ h1{
 }
 .link{
   text-align: center;
- padding: 2%;
+ padding: .2rem;
+ margin-top: 8rem;
 } 
+@media(max-width:998px){
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width:558px){
+    html{
+        font-size: 35%;
+    }
+}
+@media(max-width:358px){
+    html{
+        font-size: 25%;
+    }
+}
+@media(max-width:258px){
+    html{
+        font-size: 15%;
+    }
+}
+@media(max-width:158px){
+    html{
+        font-size: 10%;
+    }
+}
+@media(max-width:100px){
+    html{
+        font-size: 7%;
+    }
+}
+@media(max-width:75px){
+    html{
+        font-size: 5%;
+    }
+}

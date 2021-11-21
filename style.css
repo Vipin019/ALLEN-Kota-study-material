@@ -1,15 +1,19 @@
 body{
     font-family: 'Baloo Bhaina 2', cursive;
     background: url('background.jpg');
-    margin: 0px;
-    padding: 0px;
+   
+}
+html{
+    font-size: 100%;
 }
 .head{
     display: block;
-    margin-left: 400px;
-    margin-right: 400px;
+   
+    text-align: center;
+   
     
     color: red;
+   
 }
 .navbar{
     display: inline-block;
@@ -17,9 +21,9 @@ body{
 }
 .navbar li{
     display: inline-block;
-    font-size: 15px;
-    font-size: 20px;
-    border: 2px solid rgb(242, 248, 242);
+    
+    font-size: 1.5rem;
+    border: .5rem solid rgb(242, 248, 242);
     background-color: rgb(242, 248, 242);
 }
 .navbar li a{
@@ -35,52 +39,60 @@ body{
 .class1{
     text-align: center;
     color: red;
-    margin-top: 90px;
+    margin-top: 14rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-size: 1rem;
    
 
 }
 .class1 h1{
-   border: 2px solid red;
-   margin-left: 250px;
-   margin-right: 250px;
+   border: .125rem solid red;
+  
    
 }
 .subject{
     text-align: center;
-    margin-left: 350px;
-    margin-right: 350px;
-    margin-top: 200px;
+    
+    margin-top: 20rem;
+    font-size: 2rem;
     
     
     
 }
 .subject .mathematics{
     color: yellow;
-    border:  2px solid yellow;
+    border:  .125rem solid yellow;
     background-color: rgb(245, 246, 240);
-    margin: 20%;
+    margin-left: 20rem;
+    margin-right: 20rem;
     border-radius: 40%;
-    padding: 5%;
+    margin-bottom: 8rem;
+   
    
     
 }  
 .subject .physics{
     color: blue;
-    border:  2px solid blue;
+    border:  .125rem solid blue;
     background-color: rgb(117, 115, 194);
-    margin: 20%;
+    margin-left: 20rem;
+    margin-right: 20rem;
     border-radius: 40%;
-    padding: 5%;
+    margin-bottom: 8rem;
+    
     
 }
 .subject .chemistry{
     color: red;
-    border:  2px solid red;
-    border:  2px solid red;
+    
+    border:  .125rem solid red;
     background-color: rgb(202, 138, 138);
-    margin: 20%;
+    margin-left: 20rem;
+    margin-right: 20rem;
     border-radius: 40%;
-    padding: 5%;
+    
+   
     
 }
 .mathematics li a{
@@ -91,4 +103,44 @@ body{
 }
 .chemistry li a{
     text-decoration: none;
+}
+@media(max-width:998px){
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width:558px){
+    html{
+        font-size: 35%;
+    }
+}
+@media(max-width:358px){
+    html{
+        font-size: 25%;
+    }
+}
+@media(max-width:258px){
+    html{
+        font-size: 15%;
+    }
+}
+@media(max-width:158px){
+    html{
+        font-size: 10%;
+    }
+}
+@media(max-width:100px){
+    html{
+        font-size: 7%;
+    }
+}
+@media(max-width:75px){
+    html{
+        font-size: 5%;
+    }
 }
