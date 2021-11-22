@@ -9,8 +9,8 @@ h1{
     text-align: center;
     color: yellow;
     border: 2px solid yellow;
-    margin-left: 18.75rem;
-    margin-right: 18.75rem;
+    margin-left: 13.75rem;
+    margin-right: 13.75rem;
     font-size: 5rem;
    
 }
@@ -27,8 +27,7 @@ h1{
    
     border: .125rem solid yellow;
    border-radius: 30%;
-    font-size: 3rem;
-
+font-size: 3rem;
 
     
 }

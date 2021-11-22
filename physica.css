@@ -27,7 +27,7 @@ h1{
    
     border: .125rem solid blue;
    border-radius: 30%;
-  font-size: 3rem;
+   font-size: 3rem; 
 
 
     
@@ -36,7 +36,7 @@ h1{
   text-align: center;
  padding: .2rem;
  margin-top: 8rem;
-
+ 
 } 
 @media(max-width:998px){
     html{

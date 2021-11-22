@@ -3,6 +3,7 @@ body{
     background: url('background.jpg');
    
 }
+
 html{
     font-size: 100%;
 }
@@ -13,7 +14,7 @@ html{
    
     
     color: red;
-   
+    margin-top: 0rem;
 }
 .navbar{
     display: inline-block;
@@ -23,8 +24,8 @@ html{
     display: inline-block;
     
     font-size: 1.5rem;
-    border: .5rem solid rgb(242, 248, 242);
-    background-color: rgb(242, 248, 242);
+    border: .5rem solid rgb(153,138,105);
+    background-color: rgb(153,138,105);
 }
 .navbar li a{
     color: rgb(167, 45, 45);
@@ -38,7 +39,7 @@ html{
 }
 .class1{
     text-align: center;
-    color: red;
+    color: #a52323;
     margin-top: 14rem;
     margin-left: 7rem;
     margin-right: 7rem;
@@ -47,8 +48,8 @@ html{
 
 }
 .class1 h1{
-   border: .125rem solid red;
-  
+   border: .125rem solid #a52323;
+  background-color: rgb(153,138,105);
    
 }
 .subject{
