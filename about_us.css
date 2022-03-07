@@ -1,15 +1,15 @@
 body{
     font-family: 'Baloo Bhaina 2', cursive;
-    background-color: rgb(238, 238, 186);
+    background-color: rgb(245,245,219);
 }
 html{
     font-size: 100%;
 }
-h1{
+.aboutus h1{
     text-align: center;
-    color: red;
+    
 }
-p{
+.aboutus p{
     margin: 2rem;
     justify-content: center;
 }
@@ -26,33 +26,14 @@ p{
         font-size: 45%;
     }
 }
-@media(max-width:558px){
-    html{
-        font-size: 35%;
+@media(max-width:500px){
+    .aboutus p{
+        font-size: 4rem;
     }
-}
-@media(max-width:358px){
-    html{
-        font-size: 25%;
+    .aboutus h1{
+        font-size: 5rem;
     }
-}
-@media(max-width:258px){
-    html{
-        font-size: 15%;
-    }
-}
-@media(max-width:158px){
-    html{
-        font-size: 10%;
-    }
-}
-@media(max-width:100px){
-    html{
-        font-size: 7%;
-    }
-}
-@media(max-width:75px){
-    html{
-        font-size: 5%;
+    .feedback{
+        font-size: 3rem;
     }
 }
